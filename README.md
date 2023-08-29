@@ -22,6 +22,10 @@ Este es un juego de memoria de animales donde el objetivo es encontrar todos los
 3. Encuentra todos los pares de tarjetas idénticas para ganar el juego.
 4. Después de ganar, haz clic en el botón "Jugar otra vez" para reiniciar el juego.
 
+## Juega Ahora
+
+¡Juega el juego en línea [aquí](https://miguel98r.github.io/Animal_Memory_Game/)!
+
 ## Créditos
 
 Desarrollado por [Mike Rosa Dev](https://mikerosasdev.com).
