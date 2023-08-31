@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    display: flex;
+    padding: 0;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -11,7 +11,6 @@ body {
 .navbar-gradient {
     background: linear-gradient(135deg, #ffcc00, #ff0066);
 }
-
 
 .memory-game {
     text-align: center;
@@ -24,7 +23,7 @@ body {
 .card {
     width: 150px;
     height: 150px;
-    background: linear-gradient(135deg, #FFD700, #FF4500);
+    background: linear-gradient(135deg, #ffd700, #ff4500);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,11 +56,11 @@ body {
 }
 
 .card .card-inner .card-front {
-    background: linear-gradient(135deg, #FFD700, #FF4500);
+    background: linear-gradient(135deg, #ffd700, #ff4500);
 }
 
 .card .card-inner .card-back {
-    background: linear-gradient(135deg, #FF4500, #FFD700);
+    background: linear-gradient(135deg, #ff4500, #ffd700);
     transform: rotateY(180deg);
 }
 
@@ -77,13 +76,21 @@ body {
 }
 
 @keyframes shake {
-    0%, 100% {
+    0%,
+    100% {
         transform: translateX(0);
     }
-    10%, 30%, 50%, 70%, 90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
         transform: translateX(-10px);
     }
-    20%, 40%, 60%, 80% {
+    20%,
+    40%,
+    60%,
+    80% {
         transform: translateX(10px);
     }
 }
@@ -105,10 +112,12 @@ body {
 }
 
 @keyframes fadeInOut {
-    0%, 100% {
+    0%,
+    100% {
         opacity: 0;
     }
-    10%, 90% {
+    10%,
+    90% {
         opacity: 1;
     }
 }
