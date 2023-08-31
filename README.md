@@ -28,8 +28,6 @@ Este es un juego de memoria de animales donde el objetivo es encontrar todos los
 
 ## Créditos
 
-Desarrollado por [Mike Rosa Dev](https://mikerosasdev.com).
+Desarrollado por [Mike Rosa Dev](https://mikerosasdev.com) & [Luis FLores](https://www.facebook.com/luisfrancisco.floresrobles/) 
 
-## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
